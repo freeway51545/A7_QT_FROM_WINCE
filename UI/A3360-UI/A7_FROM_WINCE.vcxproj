@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4AB3FC9A-B44C-363A-AB84-4C1381C2BAFE}</ProjectGuid>
+    <RootNamespace>A7_FROM_WINCE</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\</OutDir>
+    <IntDir>debug\</IntDir>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <LibraryPath>C:\Qt\Qt5.6.2\5.6\msvc2013\lib;C:\Qt\Qt5.6.2\5.6\msvc2013\include;C:\Qt\Qt5.6.2\5.6\msvc2013\bin;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\</OutDir>
+    <IntDir>release\</IntDir>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <WarningLevel>0</WarningLevel>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Qt\Qt5.6.2\5.6\msvc2013\include;C:\Qt\Qt5.6.2\5.6\msvc2013\mkspecs;C:\Qt\Qt5.6.2\5.6\msvc2013\include\ActiveQt;C:\Qt\Qt5.6.2\5.6\msvc2013\include\QtCore;C:\Qt\Qt5.6.2\5.6\msvc2013\include\QtGui;F:\A7_QT_FROM_WINCE\UI\A7_UI\com.dc.vidiolist\fix;F:\A7_QT_FROM_WINCE\UI\A7_UI\com.dc.radio2\fix;F:\A7_QT_FROM_WINCE\UI\A7_UI\com.dc.main\fix;F:\A7_QT_FROM_WINCE\QT_NEW\frame_work;F:\A7_QT_FROM_WINCE\QT_NEW\header;F:\A7_QT_FROM_WINCE\QT_NEW\public;F:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE;F:\A7_QT_FROM_WINCE\QT_NEW\radio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <ObjectFileName>debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type=%27win32%27 name=%27Microsoft.Windows.Common-Controls%27 version=%276.0.0.0%27 publicKeyToken=%276595b64144ccf1df%27 language=%27*%27 processorArchitecture=%27*%27" %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>C:\Qt\Qt5.6.2\5.6\msvc2013\lib\qtmaind.lib;C:\Qt\Qt5.6.2\5.6\msvc2013\lib\Qt5Guid.lib;C:\Qt\Qt5.6.2\5.6\msvc2013\lib\Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>debug\A7_FROM_WINCE.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>C:\Qt\Qt5.6.2\5.6\msvc2013\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile />
+      <SubSystem>Windows</SubSystem>
+      <LinkTimeCodeGeneration />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <WarningLevel>0</WarningLevel>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>..\Qt\4.7.3\include\QtCore;..\Qt\4.7.3\include\QtGui;..\Qt\4.7.3\include;.;..\Qt\4.7.3\include\ActiveQt;release;..\Qt\4.7.3\mkspecs\default;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>QT_NO_DEBUG;NDEBUG;_WINDOWS;UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <ObjectFileName>release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat />
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>QT_NO_DEBUG;NDEBUG;_WINDOWS;UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type=%27win32%27 name=%27Microsoft.Windows.Common-Controls%27 version=%276.0.0.0%27 publicKeyToken=%276595b64144ccf1df%27 language=%27*%27 processorArchitecture=%27*%27" %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>g:\Qt\4.7.3\lib\qtmain.lib;g:\Qt\4.7.3\lib\QtGui4.lib;g:\Qt\4.7.3\lib\QtCore4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>release\A7_FROM_WINCE.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>g:\Qt\4.7.3\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile />
+      <SubSystem>Windows</SubSystem>
+      <LinkTimeCodeGeneration />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\A7_UI\com.dc.radio2\com.dc.radio2_EventListData.cpp" />
+    <ClCompile Include="..\A7_UI\com.dc.radio2\fix\RADIO_EventV1.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\A7_UI\com.dc.radio2\RADIO_Event_funcs.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\radio\RadioBase.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\radio\RadioFinder.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\radio\WindowsRadio.cpp" />
+    <ClCompile Include="..\A7_UI\com.dc.vidiolist\com.dc.vidiolist_EventListData.cpp" />
+    <ClCompile Include="..\A7_UI\com.dc.vidiolist\fix\videolist_EventV1.cpp" />
+    <ClCompile Include="..\A7_UI\com.dc.vidiolist\videolist_Event_funcs.cpp" />
+    <ClCompile Include="..\A7_UI\com.dc.main\MAIN2_Event_funcs.cpp" />
+    <ClCompile Include="..\A7_UI\com.dc.main\MAIN_Event_funcs.cpp" />
+    <ClCompile Include="..\A7_UI\com.dc.main\pubIcon_Event_funcs.cpp" />
+    <ClCompile Include="..\A7_UI\com.dc.main\com.dc.main_EventListData.cpp" />
+    <ClCompile Include="..\A7_UI\com.dc.main\fix\MAIN2_EventV1.cpp" />
+    <ClCompile Include="..\A7_UI\com.dc.main\fix\MAIN_EventV1.cpp" />
+    <ClCompile Include="..\A7_UI\com.dc.main\fix\pubIcon_EventV1.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\systemVolume.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\ZhwFreeRun.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\KeyEvent.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\PNG.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\ScreenEventManager.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\SystemKeyManager.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\uartServiceMaster.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\main.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\mainwindow.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\moc_PaintedWidget.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\PaintedWidget.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\qtmain.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\sdconfig.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\dumpForARM11.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\FileList.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\HzPy.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\LostFunction.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\Public.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\publicFun.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\publicfun_01.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\SysRw.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\TZString.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\UI_A6.cpp" />
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\ZString.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\A7_UI\com.dc.radio2\fix\RADIO_EventV1.h" />
+    <ClInclude Include="..\A7_UI\com.dc.vidiolist\fix\videolist_EventV1.h" />
+    <ClInclude Include="..\A7_UI\com.dc.vidiolist\videolist_EventV1_extend.h" />
+    <ClInclude Include="..\A7_UI\com.dc.main\fix\MAIN2_EventV1.h" />
+    <ClInclude Include="..\A7_UI\com.dc.main\MAIN2_EventV1_extend.h" />
+    <ClInclude Include="..\A7_UI\com.dc.main\fix\MAIN_EventV1.h" />
+    <ClInclude Include="..\A7_UI\com.dc.main\MAIN_EventV1_extend.h" />
+    <ClInclude Include="..\A7_UI\com.dc.main\fix\pubIcon_EventV1.h" />
+    <ClInclude Include="..\A7_UI\com.dc.main\pubIcon_EventV1_extend.h" />
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h" />
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\header\RWiniFile.h" />
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\header\systemScreen.h" />
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\systemVolume.h" />
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.h" />
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\h\mainwindow.h" />
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\h\PaintedWidget.h" />
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\h\window_temp.h" />
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\SysRw.h" />
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\ZMyMessage.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

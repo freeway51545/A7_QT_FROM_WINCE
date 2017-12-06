@@ -1,0 +1,37 @@
+#include "fix\RADIO_EventV1.h"
+	//@Override
+	 void RADIO_EventV1::_F_INIT_FUN(MSG_ZHW&msg) {
+		// TODO Auto-generated method stub
+		//BackUtil.showBackGround(this.getMainActivity(), IScreenConst.backList,IScreenConst.back_id_radio);
+		//BackUtil.showBackGround(this.getMainActivity(), IScreenConst.backList,IScreenConst.back_id_radio);
+	}
+
+	//@Override
+	void RADIO_EventV1::_F_UPDATE_TIMMER(MSG_ZHW&msg) {
+		// TODO Auto-generated method stub
+	}
+	void RADIO_EventV1::_F_EQ(MSG_ZHW&msg){
+	};
+	void RADIO_EventV1::_F_BAND(MSG_ZHW&msg){
+	};
+	void RADIO_EventV1::_F_PREV(MSG_ZHW&msg){
+	};
+	void RADIO_EventV1::_F_STOP(MSG_ZHW&msg){
+	};
+	void RADIO_EventV1::_F_NEXT(MSG_ZHW&msg){
+	};
+	void RADIO_EventV1::_F_SAVE(MSG_ZHW&msg){
+	};
+	void RADIO_EventV1::_F_SEARCH(MSG_ZHW&msg){
+	};
+	void RADIO_EventV1::_F_p(MSG_ZHW&msg,char* no){
+	};
+	void RADIO_EventV1::_F_HOME(MSG_ZHW&msg){
+	};
+	void RADIO_EventV1::_F_BACK(MSG_ZHW&msg){
+	};
+	void RADIO_EventV1::_F_PLUS_ONE(MSG_ZHW&msg){
+	};
+	void RADIO_EventV1::_F_SUB_ONE(MSG_ZHW&msg){
+	};
+

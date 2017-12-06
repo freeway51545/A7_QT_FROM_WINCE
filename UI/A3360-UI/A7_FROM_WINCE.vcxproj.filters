@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="application">
+      <UniqueIdentifier>{42a9585d-218d-4321-b78e-5158be787882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\radio">
+      <UniqueIdentifier>{b140138b-2fc0-4c7c-aa8a-8e580b0777fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\radio\fix">
+      <UniqueIdentifier>{f092609f-f9e8-47bb-85d0-2bf39593c970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\radio\radio_ui">
+      <UniqueIdentifier>{f0863334-5013-40d5-aaa6-1d10f3850e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\vedio">
+      <UniqueIdentifier>{88c4ecaa-e995-408e-a90a-29b4d9672fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\vedio\vedio_fix">
+      <UniqueIdentifier>{14219a16-18e5-42ed-ae0d-0b2c017b7cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\vedio\video">
+      <UniqueIdentifier>{6ed34b18-b6e6-4dd4-9267-5997b0ba3aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\main">
+      <UniqueIdentifier>{058be605-41d7-4937-9370-9e4324423b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\main\main_ui">
+      <UniqueIdentifier>{385c2e95-10f7-4fe6-8442-bd9ae4d0275d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\main\main_ui_fix">
+      <UniqueIdentifier>{4141bbe4-10a6-4db3-9ab5-b133d2f30d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{d948f31b-0582-4e92-9e2a-d1f85cee2c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame_work">
+      <UniqueIdentifier>{140475c4-9497-4a8f-81ea-d5838a570f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame_work\baseitem">
+      <UniqueIdentifier>{eaf65a03-fa91-4136-8d54-7a152d6ecf4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QT_BASE">
+      <UniqueIdentifier>{70fdb379-b44f-440d-93bc-e900d8ec2ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QT_BASE\h">
+      <UniqueIdentifier>{d45e280f-0347-4940-8ed8-d5ece58148c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{90794fe0-ffb9-46a9-881d-4beddcdb502b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\A7_UI\com.dc.radio2\com.dc.radio2_EventListData.cpp">
+      <Filter>application\radio\fix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\A7_UI\com.dc.radio2\fix\RADIO_EventV1.cpp">
+      <Filter>application\radio\fix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\A7_UI\com.dc.radio2\RADIO_Event_funcs.cpp">
+      <Filter>application\radio\radio_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\radio\RadioBase.cpp">
+      <Filter>application\radio\radio_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\radio\RadioFinder.cpp">
+      <Filter>application\radio\radio_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\radio\WindowsRadio.cpp">
+      <Filter>application\radio\radio_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\A7_UI\com.dc.vidiolist\com.dc.vidiolist_EventListData.cpp">
+      <Filter>application\vedio\vedio_fix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\A7_UI\com.dc.vidiolist\fix\videolist_EventV1.cpp">
+      <Filter>application\vedio\vedio_fix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\A7_UI\com.dc.vidiolist\videolist_Event_funcs.cpp">
+      <Filter>application\vedio\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\A7_UI\com.dc.main\MAIN2_Event_funcs.cpp">
+      <Filter>application\main\main_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\A7_UI\com.dc.main\MAIN_Event_funcs.cpp">
+      <Filter>application\main\main_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\A7_UI\com.dc.main\pubIcon_Event_funcs.cpp">
+      <Filter>application\main\main_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\A7_UI\com.dc.main\com.dc.main_EventListData.cpp">
+      <Filter>application\main\main_ui_fix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\A7_UI\com.dc.main\fix\MAIN2_EventV1.cpp">
+      <Filter>application\main\main_ui_fix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\A7_UI\com.dc.main\fix\MAIN_EventV1.cpp">
+      <Filter>application\main\main_ui_fix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\A7_UI\com.dc.main\fix\pubIcon_EventV1.cpp">
+      <Filter>application\main\main_ui_fix</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\systemVolume.cpp">
+      <Filter>frame_work</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\ZhwFreeRun.cpp">
+      <Filter>frame_work</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem.cpp">
+      <Filter>frame_work\baseitem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.cpp">
+      <Filter>frame_work\baseitem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\KeyEvent.cpp">
+      <Filter>frame_work\baseitem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\PNG.cpp">
+      <Filter>frame_work\baseitem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\ScreenEventManager.cpp">
+      <Filter>frame_work\baseitem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\SystemKeyManager.cpp">
+      <Filter>frame_work\baseitem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\uartServiceMaster.cpp">
+      <Filter>frame_work\baseitem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\main.cpp">
+      <Filter>QT_BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\mainwindow.cpp">
+      <Filter>QT_BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\moc_PaintedWidget.cpp">
+      <Filter>QT_BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\PaintedWidget.cpp">
+      <Filter>QT_BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\qtmain.cpp">
+      <Filter>QT_BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\sdconfig.cpp">
+      <Filter>QT_BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\dumpForARM11.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\FileList.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\HzPy.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\LostFunction.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\Public.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\publicFun.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\publicfun_01.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\SysRw.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\TZString.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\UI_A6.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\ZString.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\A7_UI\com.dc.radio2\fix\RADIO_EventV1.h">
+      <Filter>application\radio\fix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\A7_UI\com.dc.vidiolist\fix\videolist_EventV1.h">
+      <Filter>application\vedio\vedio_fix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\A7_UI\com.dc.vidiolist\videolist_EventV1_extend.h">
+      <Filter>application\vedio\vedio_fix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\A7_UI\com.dc.main\fix\MAIN2_EventV1.h">
+      <Filter>application\main\main_ui_fix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\A7_UI\com.dc.main\MAIN2_EventV1_extend.h">
+      <Filter>application\main\main_ui_fix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\A7_UI\com.dc.main\fix\MAIN_EventV1.h">
+      <Filter>application\main\main_ui_fix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\A7_UI\com.dc.main\MAIN_EventV1_extend.h">
+      <Filter>application\main\main_ui_fix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\A7_UI\com.dc.main\fix\pubIcon_EventV1.h">
+      <Filter>application\main\main_ui_fix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\A7_UI\com.dc.main\pubIcon_EventV1_extend.h">
+      <Filter>application\main\main_ui_fix</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\header\RWiniFile.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\header\systemScreen.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\systemVolume.h">
+      <Filter>frame_work</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.h">
+      <Filter>frame_work\baseitem</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\h\mainwindow.h">
+      <Filter>QT_BASE\h</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\h\PaintedWidget.h">
+      <Filter>QT_BASE\h</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\h\window_temp.h">
+      <Filter>QT_BASE\h</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\SysRw.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\A7_QT_FROM_WINCE\QT_NEW\public\ZMyMessage.h">
+      <Filter>public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

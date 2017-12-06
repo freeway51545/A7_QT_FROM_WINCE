@@ -1,0 +1,13 @@
+#include "fix\pubIcon_EventV1.h"
+	//@Override
+	 void pubIcon_EventV1::_F_INIT_FUN(MSG_ZHW&msg) {
+		// TODO Auto-generated method stub
+		//BackUtil.showBackGround(this.getMainActivity(), IScreenConst.backList,IScreenConst.back_id_pubicon);
+		//BackUtil.showBackGround(this.getMainActivity(), IScreenConst.backList,IScreenConst.back_id_pubicon);
+	}
+
+	//@Override
+	void pubIcon_EventV1::_F_UPDATE_TIMMER(MSG_ZHW&msg) {
+		// TODO Auto-generated method stub
+	}
+

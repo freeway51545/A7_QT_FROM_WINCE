@@ -1,0 +1,25 @@
+#include "fix\MAIN2_EventV1.h"
+	//@Override
+	 void MAIN2_EventV1::_F_INIT_FUN(MSG_ZHW&msg) {
+		// TODO Auto-generated method stub
+		//BackUtil.showBackGround(this.getMainActivity(), IScreenConst.backList,IScreenConst.back_id_main2);
+		//BackUtil.showBackGround(this.getMainActivity(), IScreenConst.backList,IScreenConst.back_id_main2);
+	}
+
+	//@Override
+	void MAIN2_EventV1::_F_UPDATE_TIMMER(MSG_ZHW&msg) {
+		// TODO Auto-generated method stub
+	}
+	void MAIN2_EventV1::_F_PREV_PAGE(MSG_ZHW&msg){
+	};
+	void MAIN2_EventV1::_F_VEDIO(MSG_ZHW&msg){
+	};
+	void MAIN2_EventV1::_F_PIC(MSG_ZHW&msg){
+	};
+	void MAIN2_EventV1::_F_VICE(MSG_ZHW&msg){
+	};
+	void MAIN2_EventV1::_F_SET(MSG_ZHW&msg){
+	};
+	void MAIN2_EventV1::_F_VICH(MSG_ZHW&msg){
+	};
+

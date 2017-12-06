@@ -1,0 +1,33 @@
+#include "fix\MAIN_EventV1.h"
+	//@Override
+	 void MAIN_EventV1::_F_INIT_FUN(MSG_ZHW&msg) {
+		// TODO Auto-generated method stub
+		//BackUtil.showBackGround(this.getMainActivity(), IScreenConst.backList,IScreenConst.back_id_main);
+		//BackUtil.showBackGround(this.getMainActivity(), IScreenConst.backList,IScreenConst.back_id_main);
+	}
+
+	//@Override
+	void MAIN_EventV1::_F_UPDATE_TIMMER(MSG_ZHW&msg) {
+		// TODO Auto-generated method stub
+	}
+	void MAIN_EventV1::_F_buttona(MSG_ZHW&msg){
+	};
+	void MAIN_EventV1::_F_buttonb(MSG_ZHW&msg){
+	};
+	void MAIN_EventV1::_F_buttonc(MSG_ZHW&msg){
+	};
+	void MAIN_EventV1::_F_NEXT_PAGE(MSG_ZHW&msg){
+	};
+	void MAIN_EventV1::_F_CLOSE_SCREEN(MSG_ZHW&msg){
+	};
+	void MAIN_EventV1::_F_CAR_LEFT(MSG_ZHW&msg){
+	};
+	void MAIN_EventV1::_F_BT(MSG_ZHW&msg){
+	};
+	void MAIN_EventV1::_F_RADIO(MSG_ZHW&msg){
+	};
+	void MAIN_EventV1::_F_MUSIC(MSG_ZHW&msg){
+	};
+	void MAIN_EventV1::_F_APP(MSG_ZHW&msg){
+	};
+

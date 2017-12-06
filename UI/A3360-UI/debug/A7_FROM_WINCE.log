@@ -1,0 +1,558 @@
+﻿生成启动时间为 2017/12/6 10:49:14。
+     1>项目“F:\A7_QT_FROM_WINCE\UI\A3360-UI\A7_FROM_WINCE.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Qt\Qt5.6.2\5.6\msvc2013\include /IC:\Qt\Qt5.6.2\5.6\msvc2013\mkspecs /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\ActiveQt /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtCore /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtGui /IF:\A7_QT_FROM_WINCE\UI\A7_UI\com.dc.vidiolist\fix /IF:\A7_QT_FROM_WINCE\UI\A7_UI\com.dc.radio2\fix /IF:\A7_QT_FROM_WINCE\UI\A7_UI\com.dc.main\fix /IF:\A7_QT_FROM_WINCE\QT_NEW\frame_work /IF:\A7_QT_FROM_WINCE\QT_NEW\header /IF:\A7_QT_FROM_WINCE\QT_NEW\public /IF:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE /IF:\A7_QT_FROM_WINCE\QT_NEW\radio /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /Gm- /EHsc /MDd /GS- /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"debug\\" /Fd".\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -Zm200 -w34100 -w34189 ..\A7_UI\com.dc.radio2\com.dc.radio2_EventListData.cpp ..\A7_UI\com.dc.radio2\RADIO_Event_funcs.cpp G:\A7_QT_FROM_WINCE\QT_NEW\radio\RadioBase.cpp G:\A7_QT_FROM_WINCE\QT_NEW\radio\RadioFinder.cpp G:\A7_QT_FROM_WINCE\QT_NEW\radio\WindowsRadio.cpp ..\A7_UI\com.dc.vidiolist\com.dc.vidiolist_EventListData.cpp ..\A7_UI\com.dc.vidiolist\fix\videolist_EventV1.cpp ..\A7_UI\com.dc.vidiolist\videolist_Event_funcs.cpp ..\A7_UI\com.dc.main\MAIN2_Event_funcs.cpp ..\A7_UI\com.dc.main\MAIN_Event_funcs.cpp ..\A7_UI\com.dc.main\pubIcon_Event_funcs.cpp ..\A7_UI\com.dc.main\com.dc.main_EventListData.cpp ..\A7_UI\com.dc.main\fix\MAIN2_EventV1.cpp ..\A7_UI\com.dc.main\fix\MAIN_EventV1.cpp ..\A7_UI\com.dc.main\fix\pubIcon_EventV1.cpp G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\systemVolume.cpp G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\ZhwFreeRun.cpp G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem.cpp G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.cpp G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\KeyEvent.cpp G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\PNG.cpp G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\ScreenEventManager.cpp G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\SystemKeyManager.cpp G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\uartServiceMaster.cpp G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\main.cpp G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\mainwindow.cpp G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\moc_PaintedWidget.cpp G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\PaintedWidget.cpp G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\qtmain.cpp G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\sdconfig.cpp G:\A7_QT_FROM_WINCE\QT_NEW\public\dumpForARM11.cpp G:\A7_QT_FROM_WINCE\QT_NEW\public\FileList.cpp G:\A7_QT_FROM_WINCE\QT_NEW\public\HzPy.cpp G:\A7_QT_FROM_WINCE\QT_NEW\public\LostFunction.cpp G:\A7_QT_FROM_WINCE\QT_NEW\public\Public.cpp G:\A7_QT_FROM_WINCE\QT_NEW\public\publicFun.cpp G:\A7_QT_FROM_WINCE\QT_NEW\public\publicfun_01.cpp G:\A7_QT_FROM_WINCE\QT_NEW\public\SysRw.cpp G:\A7_QT_FROM_WINCE\QT_NEW\public\TZString.cpp G:\A7_QT_FROM_WINCE\QT_NEW\public\UI_A6.cpp G:\A7_QT_FROM_WINCE\QT_NEW\public\ZString.cpp
+         com.dc.radio2_EventListData.cpp
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “LPCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“LPCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “PCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“PCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(15): warning C4005: “WINBASEAPI”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h(22) : 参见“WINBASEAPI”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(21): error C2011: “tagRECT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(155) : 参见“tagRECT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(29): error C2011: “tagPOINT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(175) : 参见“tagPOINT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(34): error C2373: “GetTickCount”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203) : 参见“GetTickCount”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(37): error C2371: “WORD”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(159) : 参见“WORD”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(41): warning C4005: “CALLBACK”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(127) : 参见“CALLBACK”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(44): error C2011: “tagSIZE”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(187) : 参见“tagSIZE”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(50): error C2011: “_OVERLAPPED”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(51) : 参见“_OVERLAPPED”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(67): warning C4005: “LOWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(204) : 参见“LOWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(68): warning C4005: “HIWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(205) : 参见“HIWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2556: “Qt::HANDLE GetCurrentThreadId(void)”: 重载函数与“DWORD GetCurrentThreadId(void)”只是在返回类型上不同
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2373: “GetCurrentThreadId”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(129): warning C4005: “MAKEWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(202) : 参见“MAKEWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(130): warning C4005: “MAKELONG”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(203) : 参见“MAKELONG”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(133): warning C4005: “LOBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(206) : 参见“LOBYTE”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(134): warning C4005: “HIBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(207) : 参见“HIBYTE”的前一个定义
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C3861: “GetTickCount”:  找不到标识符
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C3861: “GetTickCount”:  找不到标识符
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.h(4): fatal error C1083: 无法打开包括文件: “PaintedWidget.h”: No such file or directory
+         RADIO_Event_funcs.cpp
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “LPCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“LPCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “PCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“PCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(15): warning C4005: “WINBASEAPI”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h(22) : 参见“WINBASEAPI”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(21): error C2011: “tagRECT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(155) : 参见“tagRECT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(29): error C2011: “tagPOINT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(175) : 参见“tagPOINT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(34): error C2373: “GetTickCount”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203) : 参见“GetTickCount”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(37): error C2371: “WORD”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(159) : 参见“WORD”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(41): warning C4005: “CALLBACK”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(127) : 参见“CALLBACK”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(44): error C2011: “tagSIZE”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(187) : 参见“tagSIZE”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(50): error C2011: “_OVERLAPPED”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(51) : 参见“_OVERLAPPED”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(67): warning C4005: “LOWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(204) : 参见“LOWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(68): warning C4005: “HIWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(205) : 参见“HIWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2556: “Qt::HANDLE GetCurrentThreadId(void)”: 重载函数与“DWORD GetCurrentThreadId(void)”只是在返回类型上不同
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2373: “GetCurrentThreadId”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(129): warning C4005: “MAKEWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(202) : 参见“MAKEWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(130): warning C4005: “MAKELONG”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(203) : 参见“MAKELONG”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(133): warning C4005: “LOBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(206) : 参见“LOBYTE”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(134): warning C4005: “HIBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(207) : 参见“HIBYTE”的前一个定义
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C3861: “GetTickCount”:  找不到标识符
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C3861: “GetTickCount”:  找不到标识符
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.h(4): fatal error C1083: 无法打开包括文件: “PaintedWidget.h”: No such file or directory
+         RadioBase.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\radio\RadioBase.cpp”: No such file or directory
+         RadioFinder.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\radio\RadioFinder.cpp”: No such file or directory
+         WindowsRadio.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\radio\WindowsRadio.cpp”: No such file or directory
+         com.dc.vidiolist_EventListData.cpp
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “LPCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“LPCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “PCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“PCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(15): warning C4005: “WINBASEAPI”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h(22) : 参见“WINBASEAPI”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(21): error C2011: “tagRECT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(155) : 参见“tagRECT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(29): error C2011: “tagPOINT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(175) : 参见“tagPOINT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(34): error C2373: “GetTickCount”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203) : 参见“GetTickCount”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(37): error C2371: “WORD”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(159) : 参见“WORD”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(41): warning C4005: “CALLBACK”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(127) : 参见“CALLBACK”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(44): error C2011: “tagSIZE”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(187) : 参见“tagSIZE”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(50): error C2011: “_OVERLAPPED”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(51) : 参见“_OVERLAPPED”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(67): warning C4005: “LOWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(204) : 参见“LOWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(68): warning C4005: “HIWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(205) : 参见“HIWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2556: “Qt::HANDLE GetCurrentThreadId(void)”: 重载函数与“DWORD GetCurrentThreadId(void)”只是在返回类型上不同
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2373: “GetCurrentThreadId”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(129): warning C4005: “MAKEWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(202) : 参见“MAKEWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(130): warning C4005: “MAKELONG”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(203) : 参见“MAKELONG”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(133): warning C4005: “LOBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(206) : 参见“LOBYTE”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(134): warning C4005: “HIBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(207) : 参见“HIBYTE”的前一个定义
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C3861: “GetTickCount”:  找不到标识符
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C3861: “GetTickCount”:  找不到标识符
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.h(4): fatal error C1083: 无法打开包括文件: “PaintedWidget.h”: No such file or directory
+         videolist_EventV1.cpp
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “LPCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“LPCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “PCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“PCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(15): warning C4005: “WINBASEAPI”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h(22) : 参见“WINBASEAPI”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(21): error C2011: “tagRECT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(155) : 参见“tagRECT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(29): error C2011: “tagPOINT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(175) : 参见“tagPOINT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(34): error C2373: “GetTickCount”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203) : 参见“GetTickCount”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(37): error C2371: “WORD”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(159) : 参见“WORD”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(41): warning C4005: “CALLBACK”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(127) : 参见“CALLBACK”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(44): error C2011: “tagSIZE”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(187) : 参见“tagSIZE”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(50): error C2011: “_OVERLAPPED”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(51) : 参见“_OVERLAPPED”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(67): warning C4005: “LOWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(204) : 参见“LOWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(68): warning C4005: “HIWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(205) : 参见“HIWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2556: “Qt::HANDLE GetCurrentThreadId(void)”: 重载函数与“DWORD GetCurrentThreadId(void)”只是在返回类型上不同
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2373: “GetCurrentThreadId”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(129): warning C4005: “MAKEWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(202) : 参见“MAKEWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(130): warning C4005: “MAKELONG”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(203) : 参见“MAKELONG”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(133): warning C4005: “LOBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(206) : 参见“LOBYTE”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(134): warning C4005: “HIBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(207) : 参见“HIBYTE”的前一个定义
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C3861: “GetTickCount”:  找不到标识符
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C3861: “GetTickCount”:  找不到标识符
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.h(4): fatal error C1083: 无法打开包括文件: “PaintedWidget.h”: No such file or directory
+         videolist_Event_funcs.cpp
+     1>..\A7_UI\com.dc.vidiolist\videolist_Event_funcs.cpp(1): fatal error C1083: 无法打开包括文件: “..\list.h”: No such file or directory
+         MAIN2_Event_funcs.cpp
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “LPCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“LPCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “PCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“PCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(15): warning C4005: “WINBASEAPI”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h(22) : 参见“WINBASEAPI”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(21): error C2011: “tagRECT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(155) : 参见“tagRECT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(29): error C2011: “tagPOINT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(175) : 参见“tagPOINT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(34): error C2373: “GetTickCount”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203) : 参见“GetTickCount”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(37): error C2371: “WORD”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(159) : 参见“WORD”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(41): warning C4005: “CALLBACK”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(127) : 参见“CALLBACK”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(44): error C2011: “tagSIZE”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(187) : 参见“tagSIZE”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(50): error C2011: “_OVERLAPPED”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(51) : 参见“_OVERLAPPED”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(67): warning C4005: “LOWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(204) : 参见“LOWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(68): warning C4005: “HIWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(205) : 参见“HIWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2556: “Qt::HANDLE GetCurrentThreadId(void)”: 重载函数与“DWORD GetCurrentThreadId(void)”只是在返回类型上不同
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2373: “GetCurrentThreadId”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(129): warning C4005: “MAKEWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(202) : 参见“MAKEWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(130): warning C4005: “MAKELONG”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(203) : 参见“MAKELONG”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(133): warning C4005: “LOBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(206) : 参见“LOBYTE”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(134): warning C4005: “HIBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(207) : 参见“HIBYTE”的前一个定义
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C3861: “GetTickCount”:  找不到标识符
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C3861: “GetTickCount”:  找不到标识符
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.h(4): fatal error C1083: 无法打开包括文件: “PaintedWidget.h”: No such file or directory
+         MAIN_Event_funcs.cpp
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “LPCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“LPCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “PCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“PCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(15): warning C4005: “WINBASEAPI”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h(22) : 参见“WINBASEAPI”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(21): error C2011: “tagRECT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(155) : 参见“tagRECT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(29): error C2011: “tagPOINT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(175) : 参见“tagPOINT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(34): error C2373: “GetTickCount”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203) : 参见“GetTickCount”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(37): error C2371: “WORD”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(159) : 参见“WORD”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(41): warning C4005: “CALLBACK”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(127) : 参见“CALLBACK”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(44): error C2011: “tagSIZE”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(187) : 参见“tagSIZE”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(50): error C2011: “_OVERLAPPED”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(51) : 参见“_OVERLAPPED”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(67): warning C4005: “LOWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(204) : 参见“LOWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(68): warning C4005: “HIWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(205) : 参见“HIWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2556: “Qt::HANDLE GetCurrentThreadId(void)”: 重载函数与“DWORD GetCurrentThreadId(void)”只是在返回类型上不同
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2373: “GetCurrentThreadId”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(129): warning C4005: “MAKEWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(202) : 参见“MAKEWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(130): warning C4005: “MAKELONG”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(203) : 参见“MAKELONG”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(133): warning C4005: “LOBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(206) : 参见“LOBYTE”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(134): warning C4005: “HIBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(207) : 参见“HIBYTE”的前一个定义
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C3861: “GetTickCount”:  找不到标识符
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C3861: “GetTickCount”:  找不到标识符
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.h(4): fatal error C1083: 无法打开包括文件: “PaintedWidget.h”: No such file or directory
+         pubIcon_Event_funcs.cpp
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “LPCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“LPCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “PCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“PCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(15): warning C4005: “WINBASEAPI”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h(22) : 参见“WINBASEAPI”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(21): error C2011: “tagRECT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(155) : 参见“tagRECT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(29): error C2011: “tagPOINT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(175) : 参见“tagPOINT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(34): error C2373: “GetTickCount”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203) : 参见“GetTickCount”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(37): error C2371: “WORD”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(159) : 参见“WORD”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(41): warning C4005: “CALLBACK”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(127) : 参见“CALLBACK”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(44): error C2011: “tagSIZE”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(187) : 参见“tagSIZE”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(50): error C2011: “_OVERLAPPED”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(51) : 参见“_OVERLAPPED”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(67): warning C4005: “LOWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(204) : 参见“LOWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(68): warning C4005: “HIWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(205) : 参见“HIWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2556: “Qt::HANDLE GetCurrentThreadId(void)”: 重载函数与“DWORD GetCurrentThreadId(void)”只是在返回类型上不同
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2373: “GetCurrentThreadId”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(129): warning C4005: “MAKEWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(202) : 参见“MAKEWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(130): warning C4005: “MAKELONG”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(203) : 参见“MAKELONG”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(133): warning C4005: “LOBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(206) : 参见“LOBYTE”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(134): warning C4005: “HIBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(207) : 参见“HIBYTE”的前一个定义
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C3861: “GetTickCount”:  找不到标识符
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C3861: “GetTickCount”:  找不到标识符
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.h(4): fatal error C1083: 无法打开包括文件: “PaintedWidget.h”: No such file or directory
+         com.dc.main_EventListData.cpp
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “LPCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“LPCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “PCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“PCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(15): warning C4005: “WINBASEAPI”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h(22) : 参见“WINBASEAPI”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(21): error C2011: “tagRECT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(155) : 参见“tagRECT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(29): error C2011: “tagPOINT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(175) : 参见“tagPOINT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(34): error C2373: “GetTickCount”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203) : 参见“GetTickCount”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(37): error C2371: “WORD”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(159) : 参见“WORD”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(41): warning C4005: “CALLBACK”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(127) : 参见“CALLBACK”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(44): error C2011: “tagSIZE”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(187) : 参见“tagSIZE”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(50): error C2011: “_OVERLAPPED”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(51) : 参见“_OVERLAPPED”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(67): warning C4005: “LOWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(204) : 参见“LOWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(68): warning C4005: “HIWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(205) : 参见“HIWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2556: “Qt::HANDLE GetCurrentThreadId(void)”: 重载函数与“DWORD GetCurrentThreadId(void)”只是在返回类型上不同
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2373: “GetCurrentThreadId”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(129): warning C4005: “MAKEWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(202) : 参见“MAKEWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(130): warning C4005: “MAKELONG”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(203) : 参见“MAKELONG”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(133): warning C4005: “LOBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(206) : 参见“LOBYTE”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(134): warning C4005: “HIBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(207) : 参见“HIBYTE”的前一个定义
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C3861: “GetTickCount”:  找不到标识符
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C3861: “GetTickCount”:  找不到标识符
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.h(4): fatal error C1083: 无法打开包括文件: “PaintedWidget.h”: No such file or directory
+         MAIN2_EventV1.cpp
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “LPCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“LPCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “PCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“PCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(15): warning C4005: “WINBASEAPI”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h(22) : 参见“WINBASEAPI”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(21): error C2011: “tagRECT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(155) : 参见“tagRECT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(29): error C2011: “tagPOINT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(175) : 参见“tagPOINT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(34): error C2373: “GetTickCount”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203) : 参见“GetTickCount”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(37): error C2371: “WORD”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(159) : 参见“WORD”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(41): warning C4005: “CALLBACK”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(127) : 参见“CALLBACK”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(44): error C2011: “tagSIZE”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(187) : 参见“tagSIZE”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(50): error C2011: “_OVERLAPPED”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(51) : 参见“_OVERLAPPED”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(67): warning C4005: “LOWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(204) : 参见“LOWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(68): warning C4005: “HIWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(205) : 参见“HIWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2556: “Qt::HANDLE GetCurrentThreadId(void)”: 重载函数与“DWORD GetCurrentThreadId(void)”只是在返回类型上不同
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2373: “GetCurrentThreadId”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(129): warning C4005: “MAKEWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(202) : 参见“MAKEWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(130): warning C4005: “MAKELONG”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(203) : 参见“MAKELONG”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(133): warning C4005: “LOBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(206) : 参见“LOBYTE”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(134): warning C4005: “HIBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(207) : 参见“HIBYTE”的前一个定义
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C3861: “GetTickCount”:  找不到标识符
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C3861: “GetTickCount”:  找不到标识符
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.h(4): fatal error C1083: 无法打开包括文件: “PaintedWidget.h”: No such file or directory
+         MAIN_EventV1.cpp
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “LPCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“LPCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “PCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“PCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(15): warning C4005: “WINBASEAPI”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h(22) : 参见“WINBASEAPI”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(21): error C2011: “tagRECT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(155) : 参见“tagRECT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(29): error C2011: “tagPOINT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(175) : 参见“tagPOINT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(34): error C2373: “GetTickCount”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203) : 参见“GetTickCount”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(37): error C2371: “WORD”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(159) : 参见“WORD”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(41): warning C4005: “CALLBACK”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(127) : 参见“CALLBACK”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(44): error C2011: “tagSIZE”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(187) : 参见“tagSIZE”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(50): error C2011: “_OVERLAPPED”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(51) : 参见“_OVERLAPPED”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(67): warning C4005: “LOWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(204) : 参见“LOWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(68): warning C4005: “HIWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(205) : 参见“HIWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2556: “Qt::HANDLE GetCurrentThreadId(void)”: 重载函数与“DWORD GetCurrentThreadId(void)”只是在返回类型上不同
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2373: “GetCurrentThreadId”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(129): warning C4005: “MAKEWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(202) : 参见“MAKEWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(130): warning C4005: “MAKELONG”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(203) : 参见“MAKELONG”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(133): warning C4005: “LOBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(206) : 参见“LOBYTE”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(134): warning C4005: “HIBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(207) : 参见“HIBYTE”的前一个定义
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C3861: “GetTickCount”:  找不到标识符
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C3861: “GetTickCount”:  找不到标识符
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.h(4): fatal error C1083: 无法打开包括文件: “PaintedWidget.h”: No such file or directory
+         pubIcon_EventV1.cpp
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “LPCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“LPCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(6): error C2373: “PCWSTR”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(407) : 参见“PCWSTR”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(15): warning C4005: “WINBASEAPI”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h(22) : 参见“WINBASEAPI”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(21): error C2011: “tagRECT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(155) : 参见“tagRECT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(29): error C2011: “tagPOINT”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(175) : 参见“tagPOINT”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(34): error C2373: “GetTickCount”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203) : 参见“GetTickCount”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(37): error C2371: “WORD”: 重定义；不同的基类型
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(159) : 参见“WORD”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(41): warning C4005: “CALLBACK”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(127) : 参见“CALLBACK”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(44): error C2011: “tagSIZE”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h(187) : 参见“tagSIZE”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(50): error C2011: “_OVERLAPPED”:“struct”类型重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h(51) : 参见“_OVERLAPPED”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(67): warning C4005: “LOWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(204) : 参见“LOWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(68): warning C4005: “HIWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(205) : 参见“HIWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2556: “Qt::HANDLE GetCurrentThreadId(void)”: 重载函数与“DWORD GetCurrentThreadId(void)”只是在返回类型上不同
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(99): error C2373: “GetCurrentThreadId”: 重定义；不同的类型修饰符
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h(247) : 参见“GetCurrentThreadId”的声明
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(129): warning C4005: “MAKEWORD”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(202) : 参见“MAKEWORD”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(130): warning C4005: “MAKELONG”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(203) : 参见“MAKELONG”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(133): warning C4005: “LOBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(206) : 参见“LOBYTE”的前一个定义
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\header\pubtype.h(134): warning C4005: “HIBYTE”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(207) : 参见“HIBYTE”的前一个定义
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\ZString.h(25): error C3861: “GetTickCount”:  找不到标识符
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C2568: “=”: 无法解析函数重载
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(203): 可能是“DWORD GetTickCount(void)”
+     1>f:\a7_qt_from_wince\qt_new\public\tzstring.h(18): error C3861: “GetTickCount”:  找不到标识符
+     1>F:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.h(4): fatal error C1083: 无法打开包括文件: “PaintedWidget.h”: No such file or directory
+         systemVolume.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\systemVolume.cpp”: No such file or directory
+         ZhwFreeRun.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\ZhwFreeRun.cpp”: No such file or directory
+         BaseStateEventItem.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem.cpp”: No such file or directory
+         BaseStateEventItem2.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\BaseStateEventItem2.cpp”: No such file or directory
+         KeyEvent.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\KeyEvent.cpp”: No such file or directory
+         正在生成代码...
+         正在编译...
+         PNG.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\PNG.cpp”: No such file or directory
+         ScreenEventManager.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\ScreenEventManager.cpp”: No such file or directory
+         SystemKeyManager.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\SystemKeyManager.cpp”: No such file or directory
+         uartServiceMaster.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\frame_work\uartServiceMaster.cpp”: No such file or directory
+         main.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\main.cpp”: No such file or directory
+         mainwindow.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\mainwindow.cpp”: No such file or directory
+         moc_PaintedWidget.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\moc_PaintedWidget.cpp”: No such file or directory
+         PaintedWidget.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\PaintedWidget.cpp”: No such file or directory
+         qtmain.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\qtmain.cpp”: No such file or directory
+         sdconfig.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\QT_BASE\sdconfig.cpp”: No such file or directory
+         dumpForARM11.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\public\dumpForARM11.cpp”: No such file or directory
+         FileList.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\public\FileList.cpp”: No such file or directory
+         HzPy.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\public\HzPy.cpp”: No such file or directory
+         LostFunction.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\public\LostFunction.cpp”: No such file or directory
+         Public.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\public\Public.cpp”: No such file or directory
+         publicFun.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\public\publicFun.cpp”: No such file or directory
+         publicfun_01.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\public\publicfun_01.cpp”: No such file or directory
+         SysRw.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\public\SysRw.cpp”: No such file or directory
+         TZString.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\public\TZString.cpp”: No such file or directory
+         UI_A6.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\public\UI_A6.cpp”: No such file or directory
+         正在生成代码...
+         正在编译...
+         ZString.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “G:\A7_QT_FROM_WINCE\QT_NEW\public\ZString.cpp”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“F:\A7_QT_FROM_WINCE\UI\A3360-UI\A7_FROM_WINCE.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:18.23

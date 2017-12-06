@@ -1,0 +1,23 @@
+#ifndef _SYSTEMVOLUME_
+#define _SYSTEMVOLUME_
+
+
+
+#define LOUDNESS_MIN   0
+#define LOUDNESS_MAX   20
+
+#define MAX_LOUDNESS 20
+#define MAX_LEVEL 29
+
+//#define FULL_VOLUME_GAIN  0x20000
+#define FULL_VOLUME_GAIN  0x15000
+#define TRIM_LEVEL_MAX  41
+
+#define DEFAULT_BASS      0   //RANGE(-14,14)
+#define DEFAULT_TREBLE    0	  //RANGE(-14,14)
+#define DEFAULT_BALANCE   0   //RANGE(-20,20)
+#define DEFAULT_LOUDNESS  0   //RANGE(0,20)
+#define DEFAULT_KEYBEEP   0   // 0:OFF   1:ON
+#define DEFAULT_VOLUME    50  //RANGE(0,100)
+
+#endif _SYSTEMVOLUME_
